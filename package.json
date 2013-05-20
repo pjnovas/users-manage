@@ -1,0 +1,43 @@
+{
+  "name": "users-manage",
+  "version": "0.1.0",
+  "description": "users-manage ============",
+  "author": "Pablo Novas <pjnovas@gmail.com>",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=0.8.x"
+  },
+  "dependencies": {
+    "passport": "0.1.x",
+    "passport-facebook": "0.1.x",
+    "mongoose": "2.x.x",
+    "gravatar": "~1.0.6",
+    "underscore": "1.4.x"
+  },
+  "devDependencies": {
+    "mocha": "1.8.2",
+    "expect.js": "0.2.0"
+  },
+  "scripts": {
+    "test": "mocha test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pjnovas/users-manage.git"
+  },
+  "bugs": {
+    "url": "git://github.com/pjnovas/users-manage/issues"
+  },
+  "keywords": [
+    "users-manage",
+    "users",
+    "manage",
+    "room-factory"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "e9e39e8abc2a9ac33ad1aea2f9247ea5a213645c"
+}
