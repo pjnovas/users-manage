@@ -12,12 +12,15 @@
   },
   "dependencies": {
     "passport": "0.1.x",
+    "passport-local": "0.1.x",
     "passport-facebook": "0.1.x",
     "mongoose": "2.x.x",
     "gravatar": "~1.0.6",
     "underscore": "1.4.x"
   },
   "devDependencies": {
+    "express": "3.2.4",
+    "mongoose": "2.x.x",
     "mocha": "1.8.2",
     "expect.js": "0.2.0"
   },
